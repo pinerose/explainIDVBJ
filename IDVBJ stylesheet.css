@@ -1,0 +1,48 @@
+/*mainexplain stylesheet*/
+#blockgrid{
+	display: grid;
+	grid-template-columns: 200px 1fr;
+}
+
+#leftcontents{
+	margin: 0;
+	padding-left: 20;
+	border-right: 2px solid gray;
+	font-weight: bold;
+	color:black;
+}
+
+#leftcontents ol{
+	padding-left:5px;
+}
+
+#leftcontents ul{
+	padding-left: 0px;
+	padding-bottom: 20px;
+	color:gray;
+}
+
+#leftcontents a{
+	text-decoration: none;
+	color:gray;
+}
+
+#content{
+border-left: 2px solid gray;
+margin:0;
+padding:20px;
+}
+
+h1{
+	border-bottom: 3px solid gray;
+	padding:40px;
+	margin: 0;
+	font-family: serif;
+}
+
+body{
+	color: black;
+	text-decoration: none;
+	font-family: Gothic, sans-serif;
+	background-color:#E0E0E0;
+}
